@@ -1,11 +1,12 @@
 import streamlit as st
 import webbrowser
 
-st.title("Dual Database Task Logger")
+st.image("ddtl.png", width=150)
+st.title("🛢️ Dual Database Task Logger")
 st.header("Please choose your preferred Database")
 
 db = st.selectbox("Choose your Database : ",["Select an Option","SQLite3","PostgreSQL"])
-urls = {"SQLite3": "https://github.com","PostgreSQL": "https://youtube.com"}
+urls = {"SQLite3": "https://tasklogger.streamlit.app/","PostgreSQL": "https://youtube.com"}
 
 # Button to trigger redirection
 if st.button("Use this Database"):
