@@ -30,6 +30,7 @@ cur.execute("""
 conn.commit()
 
 # ✅ Streamlit UI
+st.image("ddtl.png", width=150)
 st.title("🛢️ Dual Database Task Logger")
 st.subheader("Postgresql Version")
 
