@@ -6,11 +6,11 @@ from datetime import date, time
 @st.cache_resource
 def get_connection():
     return psycopg2.connect(
-        host="localhost",
-        database="task_table",
-        user="postgres",
-        password="root",
-        port="5432"
+        host="",
+        database="",
+        user="",
+        password="",
+        port=""
     )
 
 conn = get_connection()
