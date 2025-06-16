@@ -6,7 +6,7 @@ st.title("🛢️ Dual Database Task Logger")
 st.header("Please choose your preferred Database")
 
 db = st.selectbox("Choose your Database : ",["Select an Option","SQLite3","PostgreSQL"])
-urls = {"SQLite3": "https://tasklogger.streamlit.app/","PostgreSQL": "AppScript.py"}
+urls = {"SQLite3": "https://tasklogger.streamlit.app/","PostgreSQL": "PostgresqlDb.py"}
 
 # Button for redirection
 if st.button("Use this Database"):
